@@ -53,9 +53,9 @@
 						<!-- top navigation menu start -->
 						<nav class="top-nav nav-animate to-right">
 							<ul>
-								<li class="mega-menu"><a href="#" style="color: #000 !important">Home</a>
+								<li class="mega-menu"><a href="#">Home</a>
 								</li>
-								<li class="selected"><a href="#">Services</a>
+								<li><a href="#">Services</a>
 								</li>
 								<li><a href="#">About</a>
 								</li>
@@ -63,7 +63,9 @@
 								</li>
 								<li><a href="#">Schedule Appointment</a>
 								</li>
-								<li><a href="#">Contact</a>
+								<li><a href="#contact">Contact</a>
+								</li>
+								<li><a href="#contact">Blog</a>
 								</li>
 							</ul>
 						</nav>
@@ -112,7 +114,7 @@
 								 data-transform_in="o:0" 
 								 data-transform_out="o:0" 							 
 								 data-start="500" 							 							
-								 style="color:#000">
+								 style="">
 							</div>						
 						</li>
 
@@ -164,17 +166,23 @@
 		    <div id="contentWrapper">
 
 				<!-- First Section -->
-				<div class="page-title title-1">
-						<div class="container">
-							<div class="row">
-								<h1 class="black text-center">About</h1>
-								<h3 class="black text-center">Talk about the founder here</h3>
-								<img src="assets/images/pt-image.jpg">
-							</div>
+			<section id="	" style="margin-bottom: 30px">
+				<div class="container">
+					<div class="page-title title-1">
+							<h1 class="black text-center">Jen Davis, DPT</h1>
+					</div>
+
+					<div class="row">
+						<div class-"col-lg-3">
+							<img src="assets/images/pt-image.jpg">
+						</div>
+						<div class="col-lg-6">
+							<h3>Talk about services here</h3>
 						</div>
 					</div>
 
-
+				</div>	
+			</section>	
 
 				<!-- First Parallax -->
 				<div class="page-title title-1 transparent-title parallax" style="background-image:url('assets/images/runfast-room.jpg');" data-stellar-background-ratio="0.4">
@@ -276,7 +284,63 @@
 					</div>
 				</div> -->
 
+			<section id="location">
+				<div class="gmap">
+				    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+				  <div id="map_canvas">
+			    </div>
+
+			    <div class="section">
+
+							<div class="heading centered" >
+							<h1>Our Location </h1>
+							<div class="heading-separator"><span class="main-bg"></span><span class="dark-bg"></span></div>
+						</div>
+
+				    <div class="container">
+					    <div class="row">
+						    <div class="col-md-4">
+							    <div class="white-bg lg text-center">
+								    <i class="fa fa-3x fa-map-marker main-color"></i>
+								    <h3 class="madsen-dentistry">7718 SE 13th Ave, Portland, Oregon 97202</h3>
+								    <h5 class="madsen-address">Located inside the Foot Traffic Running & Walking store.</h5>
+								    <p>
+                    <br>
+                    </p>
+                    <a class="click-directions" href="https://www.google.com/maps/place/3928+10th+St+SE,+Puyallup,+WA+98374/@47.1531179,-122.2841797,17z/data=!3m1!4b1!4m5!3m4!1s0x5490fc5edd5f5745:0x8d512cfbe07b51c!8m2!3d47.1531179!4d-122.281991" target="_blank">Click to view a larger map</a>
+							    </div>
+						    </div>
+
+						    <div class="col-md-4">
+							    <div class="white-bg text-center lg">
+								    <i class="fa fa-3x fa-phone-square main-color"></i>
+								    <h4 class="new-patient-footer">Phone:<br><a class="new-patient-numbers" href="tel:+15034827234">503-482-7234</a></h4>
+										<h5>Fax:<br><a class="existing-patient-numbers" > 503-482-7232</h5>
+							    </div>
+						    </div>
+
+						    <div class="col-md-4">
+							    <div class="white-bg text-center lg">
+								    <i class="fa fa-3x fa-calendar"></i>
+								    <br>
+								    <p class="schedule-appointment-footer">Click to schedue your appointment</p>
+								    <a class="btn main-bg btn-xl shape footer-request-button" href="#" data-toggle="modal" data-target="#schedule-form" >Request Appointment</a>
+							    </div>
+						    </div>
+
+					    </div>
+				    </div>
+			    </div>
+
+
+		    </div>
+		</section>
+
+
+
+
 				<!-- Third Section -->
+<!-- 			<section id="contact"	>
 				<div class="page-title title-1">
 						<div class="container">
 							<div class="row">
@@ -285,6 +349,7 @@
 							</div>
 						</div>
 					</div>
+				</section>	 -->
 
 				<!-- Third Parallax -->
 <!-- 	    		<div class="page-title title-1 parallax about-me-title" style="background-image:url('assets/images/bg-parallax.jpg')" data-stellar-background-ratio="0.65" data-overlay="rgba(0,0,0,.3)">
