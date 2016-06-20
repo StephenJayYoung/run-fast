@@ -45,7 +45,7 @@
  -->		    	<div class="container">
 			    	<!-- Logo start -->
 			    	<div class="logo">
-				    	<a href="index.html"><img alt="" style="height: 40%; width: 40%; margin-top: 8px;" src="assets/images/logos/milti-color-logo-resized.png" / ></a>
+				    	<a href="index.html"><img alt="" style="height: 50%; width: 50%; margin-top: 8px;" src="assets/images/logos/milti-color-logo-resized.png" / ></a>
 				    </div>
 				    <!-- Logo end -->
 				    
@@ -100,10 +100,10 @@
 						</li>
 
 						<!-- SLIDE  -->
-						<li data-transition="fade">
+						<li data-transition="fade" class="dark">
 							
 							<!-- MAIN IMAGE -->
-							<img src="assets/images/run-fast-road-mod-text.jpg"  alt="" >							
+							<img src="assets/images/movement.jpg"  alt="" >							
 
 							<!-- LAYER NR. 1 -->
 							<div class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" 							
@@ -122,6 +122,45 @@
 						<li data-transition="fade" class="dark">
 							
 							<!-- MAIN IMAGE -->
+							<img src="assets/images/run-fast-road-mod.jpg"  alt="" >							
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" 							
+								 data-x="left" data-hoffset="80" 
+								 data-y="top" data-voffset="450" 							
+								 data-whitespace="normal"
+								 data-transform_idle="o:1;"			
+								 data-transform_in="o:0" 
+								 data-transform_out="o:0" 							 
+								 data-start="500" 							 							
+								 style="">
+							</div>						
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" class="dark">
+							
+							<!-- MAIN IMAGE -->
+							<img src="assets/images/scraping.jpg"  alt="" >							
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" 							
+								 data-x="center" data-hoffset="80" 
+								 data-y="bottom" data-voffset="450" 							
+								 data-whitespace="normal"
+								 data-transform_idle="o:1;"			
+								 data-transform_in="o:0" 
+								 data-transform_out="o:0" 							 
+								 data-start="500" 							 							
+								>
+							</div>
+
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade">
+							
+							<!-- MAIN IMAGE -->
 							<img src="assets/images/run-fast-girl.jpg"  alt="" >							
 
 							<!-- LAYER NR. 1 -->
@@ -137,26 +176,7 @@
 							</div>						
 						</li>
 
-						<!-- SLIDE  -->
-						<li data-transition="fade" class="dark">
-							
-							<!-- MAIN IMAGE -->
-							<img src="assets/images/run-fast-modified.jpg"  alt="" >							
 
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption BigBold-Title tp-resizeme rs-parallaxlevel-0" 							
-								 data-x="center" data-hoffset="80" 
-								 data-y="bottom" data-voffset="450" 							
-								 data-whitespace="normal"
-								 data-transform_idle="o:1;"			
-								 data-transform_in="o:0" 
-								 data-transform_out="o:0" 							 
-								 data-start="500" 							 							
-								>
-							</div>
-
-							
-						</li>
 
 
 					</ul>				
@@ -245,9 +265,30 @@
 				<div class="page-title title-1">
 						<div class="container">
 							<div class="row">
-								<h1 class="black text-center">Request an Appointment</h1>
-<!-- 								<h3 class="black text-center">Talk about Run Fast PT's testimonials here/ add a slider</h3>
- -->															<!-- Start Square Appointments Embed Code --><script src='https://squareup.com/appointments/buyer/widget/65c3d43c-da0a-4353-801a-4260d7c8d065.js'></script><!-- End Square Appointments EmbedCode -->
+								<h1 class="black text-center">General Inquiries</h1>
+								<h3 class="black text-center">Have a question about our practice? Send us a message, and we'll get back to you asap!</h3>
+								    <div class="center_contact">
+									    <div id="message">
+                          <div class="cont-success center-text"><i class="fa fa-thumbs-o-up success-icon"></i><p class="congrats main-color">Thank You!</p><p class="congratsTxt">Your message was successfuly sent , We will get back to you very soon, if you need to browse our site just click the link below.</p><div><a href="index.html" class="btn btn-lg main-bg">Go to home page</a></div></div>
+		                                </div>
+				    				    <form class="form-signin cform" method="post" action="assets/php/contact.php" id="cform" autocomplete="on">
+				    					    <div class="form-input">
+					    					    <input type="text" required="required" class="form-control shape" name="name" id="name" placeholder="Your Name">
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <input name="email" type="email" class="form-control shape" id="email" required="required" placeholder="Email Address">
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <input name="phone" type="text" class="form-control shape" id="phone" placeholder="Phone Number">			    						
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <textarea required="required" class="shape" name="message" cols="40" rows="7" id="messageTxt" spellcheck="true" placeholder="Your Message"></textarea>
+				    					    </div>
+				    					    <div class="form-input button-group">
+				    						    <input type="submit" class="btn btn-lg main-bg btn-block submit-btn shape" value="Send Message">
+				    					    </div>
+				    				    </form>
+								    </div>
 							</div>
 						</div>
 					</div>
@@ -316,11 +357,11 @@
 				</div> -->
 
 			<section id="location">
-				<div class="gmap">
+<!-- 				<div class="gmap">
 				    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
 				  <div id="map_canvas">
 			    </div>
-			    </div>
+			    </div> -->
 
 			    <div class="section">
 
@@ -411,31 +452,13 @@
 						<div class="row">
 						    <div class="conact_center_form fx shape" style="margin-top: 20px; margin-bottom: 20px; opacity: .93">
 								    <div class="heading centered">
-									    <h3 class="uppercase head-4 font-30 bold">General Inquiries</h3>
+									    <h3 class="uppercase head-4 font-30 bold">Request an Appointment</h3>
 								    </div>
 
-								    <div class="center_contact">
-									    <div id="message">
-		                                    <div class="cont-success center-text"><i class="fa fa-thumbs-o-up success-icon"></i><p class="congrats main-color">Thank You!</p><p class="congratsTxt">Your message was successfuly sent , We will get back to you very soon, if you need to browse our site just click the link below.</p><div><a href="index.html" class="btn btn-lg main-bg">Go to home page</a></div></div>
-		                                </div>
-				    				    <form class="form-signin cform" method="post" action="assets/php/contact.php" id="cform" autocomplete="on">
-				    					    <div class="form-input">
-					    					    <input type="text" required="required" class="form-control shape" name="name" id="name" placeholder="Your Name">
-				    					    </div>
-				    					    <div class="form-input">
-				    						    <input name="email" type="email" class="form-control shape" id="email" required="required" placeholder="Email Address">
-				    					    </div>
-				    					    <div class="form-input">
-				    						    <input name="phone" type="text" class="form-control shape" id="phone" placeholder="Phone Number">			    						
-				    					    </div>
-				    					    <div class="form-input">
-				    						    <textarea required="required" class="shape" name="message" cols="40" rows="7" id="messageTxt" spellcheck="true" placeholder="Your Message"></textarea>
-				    					    </div>
-				    					    <div class="form-input button-group">
-				    						    <input type="submit" class="btn btn-lg main-bg btn-block submit-btn shape" value="Send Message">
-				    					    </div>
-				    				    </form>
-								    </div>
+									<!-- Start Square Appointments Embed Code -->
+									<script src='https://squareup.com/appointments/buyer/widget/65c3d43c-da0a-4353-801a-4260d7c8d065.js'></script>
+									<!-- End Square Appointments EmbedCode -->
+
 						    </div>
 				    	</div>
 					</div>
