@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
         dottedOverlay: "none",
         delay: 6000,
         startwidth: 2000,
-        startheight: 950,
+        startheight: 975,
         hideThumbs: 200,
         thumbWidth: 100,
         thumbHeight: 50,
