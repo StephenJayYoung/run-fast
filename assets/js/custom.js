@@ -30,10 +30,9 @@ jQuery(document).ready(function($){
             },
             arrows: {
                 style: "hermes",
-                enable: false,
+                enable: true,
                 hide_onmobile: true,
                 hide_onleave: true,
-                tmp: '<div class="tp-arr-allwrapper">   <div class="tp-arr-imgholder"></div>    <div class="tp-arr-titleholder">{{title}}</div> </div>',
                 left: {
                     h_align: "left",
                     v_align: "center",

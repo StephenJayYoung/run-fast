@@ -372,9 +372,9 @@
 				</section>	
 
 			<section id="inquiries">
-				<div class="page-title title-1">
-						<div class="container">
-							<div class="row">
+<!-- 				<div class="page-title title-1">
+ -->						<div class="container">
+							<div class="row col-lg-12">
 								<h1 class="black text-center">General Inquiries</h1>
 								<h3 class="black text-center">Have a question about our practice? Send us a message, and we'll get back to you asap!</h3>
 								    <div class="center_contact">
@@ -401,8 +401,8 @@
 								    </div>
 							</div>
 						</div>
-					</div>
-				</section>	
+<!-- 					</div>
+ -->				</section>	
 
 
 				<section id="testimonials">
@@ -482,6 +482,7 @@
 								    <i class="fa fa-3x fa-map-marker main-color" style="color: #000;margin-bottom: 10px"></i>
 								    <h3 style="font-size: 19px">7718 SE 13th Ave<br> Portland, Oregon 97202</h3>
 								    <h5 style="font-size: 17px">Located inside the Foot Traffic Running & Walking store.</h5>
+								    <h4>Fax: 555-555-5555</h4>
 								    <p>
                     <br>
                     </p>
@@ -489,21 +490,41 @@
 							    </div>
 						    </div>
 
-						    <div class="col-lg-4">
-							    <div class="white-bg text-center lg">
-								    <i class="fa fa-3x fa-phone-square main-color" style="color: #000; margin-bottom: 10px"></i>
-								    <h4 style="font-size: 19px"><a href="tel:+15034827234"><span style="font-weight: bold">Phone:</span><br>503-482-7234</a></h4>
-										<h5 style="font-size: 17px">Fax:<br><a style="font-size: 17px"class="existing-patient-numbers">503-482-7232</h5>
-							    </div>
-						    </div>
-
 						    <div class="col-lg-4" >
 							    <div class="white-bg text-center lg">
+							    								    <i class="fa fa-3x fa-phone-square main-color" style="color: #000; margin-top: 10px"></i>
+								    <h4 style="font-size: 19px"><a href="tel:+15034827234"><span style="font-weight: bold"></span><br>503-482-7234</a></h4>
 								    <i class="fa fa-3x fa-calendar" style="color:#000;margin-bottom: 30px" ></i>
 								    <br>
 								    <a class="btn main-bg btn-lg shape footer-request-button" href="#schedule" >Request Appointment</a>
 							    </div>
 						    </div>
+
+						    <div class="col-lg-4">
+									<h4 class="black text-center">General Inquiries</h4>
+								    <div class="center_contact">
+									    <div id="message">
+                          <div class="cont-success center-text"><i class="fa fa-thumbs-o-up success-icon"></i><p class="congrats main-color">Thank You!</p><p class="congratsTxt">Your message was successfuly sent , We will get back to you very soon, if you need to browse our site just click the link below.</p><div><a href="index.html" class="btn btn-lg main-bg">Go to home page</a></div></div>
+		                                </div>
+				    				    <form class="form-signin cform" method="post" action="assets/php/contact.php" id="cform" autocomplete="on">
+				    					    <div class="form-input">
+					    					    <input type="text" required="required" class="form-control shape" name="name" id="name" placeholder="Your Name">
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <input name="email" type="email" class="form-control shape" id="email" required="required" placeholder="Email Address">
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <input name="phone" type="text" class="form-control shape" id="phone" placeholder="Phone Number">			    						
+				    					    </div>
+				    					    <div class="form-input">
+				    						    <textarea required="required" class="shape" name="message" cols="40" rows="7" id="messageTxt" spellcheck="true" placeholder="Your Message"></textarea>
+				    					    </div>
+				    					    <div class="form-input button-group">
+				    						    <input type="submit" class="btn btn-lg main-bg btn-block submit-btn shape" value="Send Message">
+				    					    </div>
+				    				    </form>
+								    </div>
+						    </div>						    
 
 					    </div>
 				    </div>
@@ -549,6 +570,7 @@
 									    <li><a data-toggle="tooltip" data-placement="top" title="Facebook" href="#" class="fa fa-facebook shape sm">facebook</a></li>
 									    <li><a data-toggle="tooltip" data-placement="top" title="Twitter" href="#" class="fa fa-twitter shape sm">twitter</a></li>
 									    <li><a data-toggle="tooltip" data-placement="top" title="Google+" href="#" class="fa fa-google-plus shape sm">Google+</a></li>
+											<li><a data-toggle="tooltip" data-placement="top" title="Email" href="#" class="fa fa-envelope shape sm">Email</a></li>
 								    </ul>
 							    </div>
 
