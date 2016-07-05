@@ -10924,14 +10924,14 @@ html.border5px .full-heading:before{
 	.sec-bg.left.circle,.sec-bg.right.circle{
 		border-radius:0
 	}
-	.responsive-nav,.footer-middle:after,.responsive-nav .top-search, .responsive-nav .top-cart,.footer-4 .footer-middle .container:before,.footer-light .footer-middle .container:before,.bg-full-rit, .bg-full-lft,.top-head.boxed-transparent .bot-line,
+/*	.responsive-nav,.footer-middle:after,.responsive-nav .top-search, .responsive-nav .top-cart,.footer-4 .footer-middle .container:before,.footer-light .footer-middle .container:before,.bg-full-rit, .bg-full-lft,.top-head.boxed-transparent .bot-line,
 	.top-head.boxed-transparent .logo:before,.top-head.boxed-transparent .logo:after,.header-left, .header-right{
 		display:none
-	}
+	}*/
 	.pageWrapper{
 		margin:0 !important
 	}
-	.responsive-nav{
+/*	.responsive-nav{
 		position:fixed;
 		right:-100%;
 		top:0;
@@ -10940,7 +10940,7 @@ html.border5px .full-heading:before{
 	.responsive-nav li{
 		display:block;
 		float:none !important
-	}
+	}*/
 	.slick-slide img{
 		display:inline-block
 	}
@@ -10952,9 +10952,9 @@ html.border5px .full-heading:before{
 	.cta-icon,.cta_btn .left,.slick-slide img,.footer-bottom{
 		text-align:center
 	}
-	.navbtn{
+/*	.navbtn{
 		display:block;
-	}
+	}*/
 	.footer-bottom ul{
 		float:none;
 		display:table;
@@ -11044,10 +11044,11 @@ html.border5px .full-heading:before{
 		border:0 !important;
 		padding:10px 0
 	}
-	.parallax{
+	/*Commenting this out, as it removes the parallax in mobile*/
+/*	.parallax{
 		background-position:0 0 !important;
 		background-attachment:scroll !important
-	}
+	}*/
 	.feature-img figure img{
 		width:100%
 	}
@@ -11086,6 +11087,36 @@ html.border5px .full-heading:before{
 		margin-top:0;
 	}
 }
+/************/
+/*Making the navbutton appear after 1200px, not 990*/
+
+@media (max-width: 1200px){
+	.new-nav{
+		display:block
+	}
+
+	.responsive-nav,.footer-middle:after,.responsive-nav .top-search, .responsive-nav .top-cart,.footer-4 .footer-middle .container:before,.footer-light .footer-middle .container:before,.bg-full-rit, .bg-full-lft,.top-head.boxed-transparent .bot-line,
+	.top-head.boxed-transparent .logo:before,.top-head.boxed-transparent .logo:after,.header-left, .header-right{
+		display:none
+	}
+
+	.navbtn{
+		display:block;
+	}
+
+	.responsive-nav{
+		position:fixed;
+		right:-100%;
+		top:0;
+		width:40%;
+	}
+	.responsive-nav li{
+		display:block;
+		float:none !important
+	}
+}
+
+/************/
 @media (max-width: 768px) {
 	.navbtn{
 		width: 45px;

@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
             },
             arrows: {
                 style: "hermes",
-                enable: true,
+                enable: false,
                 hide_onmobile: true,
                 hide_onleave: true,
                 left: {
