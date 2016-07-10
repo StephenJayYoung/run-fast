@@ -61,6 +61,15 @@ textarea {
 	margin-bottom: 30px
 }
 
+.services-subheader{
+	color: #fff;
+	background-color: #000;
+	opacity: .8;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 30px
+}
+
 .services-padding{
 	margin-bottom: 10px;
 }
