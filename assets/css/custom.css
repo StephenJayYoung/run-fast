@@ -19,6 +19,12 @@ h3, h4, h5{
      border-bottom: none !important; 
 }
 
+@media (max-width: 1200px){
+	.logo{
+		text-align: center;
+	}
+}
+
 .logo-responsive{
 	height: 65%;
 	width: 65%;
