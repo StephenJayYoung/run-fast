@@ -91,6 +91,10 @@ jQuery(document).ready(function($){
         startWithSlide: 0,
     });
 
+// For double pop-up modal
+$('#openBtn').click(function(){
+    $('#myModal').modal({show:true})
+});
 
 
     $('#google-map').gMap({
