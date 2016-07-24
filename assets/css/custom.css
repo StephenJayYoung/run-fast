@@ -88,6 +88,38 @@ textarea {
 	margin: 10px !important;
 }
 
+
+
+.services-background {
+	background-image:url('../images/runfast-room.jpg');
+}
+
+@media (max-width: 768px){
+	.services-background {
+		background-image:url('../images/services-mobile.jpg') !important;
+	}
+}
+
+.reviews-background{
+	background-image:url('../images/reviews-background-derek-updated.jpg')
+}
+
+@media (max-width: 768px){
+	.reviews-background {
+		background-image:url('../images/reviews-mobile.jpg') !important;
+	}
+}
+
+.appointment-background{
+	background-image:url('../images/scheduling-background.jpg') !important;
+}
+
+@media (max-width: 768px){
+	.appointment-background {
+		background-image:url('../images/appt-mobile.jpg') !important;
+	}
+}
+
 .reviews-text{
 	color: #fff;
 	background-color: #000;
