@@ -89,17 +89,16 @@ textarea {
 }
 
 .services-text-header{
-	color: #fff;
 	background-color: #000;
 	opacity: .8;
 	padding: 10px;
 	margin-bottom: 30px
 }
 
-@media(max-width: 768px){
+/*@media(max-width: 768px){
 	.services-header-mobile{
 		color: #fff !important;
-	}
+	}*/
 
 }
 
