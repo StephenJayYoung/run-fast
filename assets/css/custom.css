@@ -211,15 +211,15 @@ textarea {
 
 .calls-to-action .btn{
     background-color: #fff !important;
-    color: #DB5A00 !important;
+    color: #000 !important;
     font-weight:bold;
     border: 1px solid #fff;
-    box-shadow: 3px 3px 3px #444;
-}
+/*    box-shadow: 3px 3px 3px #444;
+*/}
 
 .calls-to-action .btn:hover{
-    background-color: #f3f1dc !important;
-}
+/*    background-color: #f3f1dc !important;
+*/}
 
 .cta-doctor{ font-size: 25px !important;}
 
