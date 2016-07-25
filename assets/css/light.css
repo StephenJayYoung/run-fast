@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6,.dark-color,.team-box .team-details .team-name,.timeline 
 a,.top-nav li li a,.top-nav .mega-menu > ul > li h4,.mini-cart-total,.page-title h1,.page-title h3,.breadcrumbs a,.footer-top div.tweets .slick-prev:hover,.footer-top div.tweets .slick-next:hover,.icon-box h3,.panel-title,.pricing-tbl.style-3.selected .price_txt,
 .footer-light .footer-middle h3,footer .divider i,.icon-box.gry-border-2:hover .block-icon i,.dark-text,.btn-grey,.btn-white,.pricing-tbl .price-lg,.fa-hover,.inner-menu ul ul li a,.top-bar ul ul li a,.icons-style-2 .heading,
 .filter-by.style-2 ul li a:hover,.filter-by.style-3 ul li a:hover,.main-bg .btn-white:not(.btn-outlined),.main-bg .btn-white:not(.btn-outlined):hover {
-	color:#666;
+	color:#000;
 }
 .darker-bg,.btn-default{
 	background-color:#444
