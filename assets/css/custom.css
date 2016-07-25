@@ -25,7 +25,7 @@ h3, h4, h5{
 
 @media (max-width: 1200px){
 	.logo{
-		text-align: center;
+		text-align: center !important;
 	}
 }
 
@@ -142,4 +142,54 @@ textarea {
 }
 .modal-backdrop.in:nth-of-type(even) {
     z-index: 1041 !important;
+}
+
+/** ACTIONS OVERRIDES */
+.calls-to-action{padding:30px 0;border:0!important;background-color: #796d22;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
+.calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0; margin-top: 20px;}
+.calls-to-action h3 a{margin-top:-10px;display:block;color:#ffffff;font-size:3em;}
+.calls-to-action h3 a{font-size:2em;}
+.calls-to-action p, .calls-to-action span{color:#ffffff;margin-top:8px;}
+.calls-to-action span a{color:inherit;}
+.calls-to-action a.button{height:auto!important;padding:5px 20px!important;}
+.calls-to-action .phone-numbers{border-right:1px solid #fff;padding-right:20px;padding-bottom: 18px;text-align:right;}
+.calls-to-action .schedule-online{padding-left:20px;text-align:left;}
+.calls-to-action .existing-patients p{font-size:24px;margin:0;}
+.calls-to-action .existing-patients p a{font-weight:bold;}
+
+@media (max-width: 762px){.calls-to-action h3 a{font-size:2em;}}
+
+@media(max-width: 480px){ .calls-to-action{padding:10px 0;}}
+
+@media(max-width: 762px){.existing-patients p a{margin-top:-10px;display:block;}}
+
+@media (max-width: 768px){
+    .calls-to-action{padding-top: 0px; padding-bottom: 30px;}
+    .calls-to-action .phone-numbers, .calls-to-action .schedule-online{
+    border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
+    .calls-to-action .existing-patients p{font-size:20px;}
+    .calls-to-action .existing-patients p a {margin-top: 5px;}
+    .calls-to-action h3 {font-size: 17px;margin-top: 30px;}
+}
+
+.calls-to-action .btn{
+    background-color: #fff !important;
+    color: #DB5A00 !important;
+    font-weight:bold;
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 3px #444;
+}
+
+.calls-to-action .btn:hover{
+    background-color: #f3f1dc !important;
+}
+
+.cta-doctor{ font-size: 25px !important;}
+
+.phone-numbers-desktop{
+    margin-top: -20px
+}
+
+.existing-patients-desktop{
+    padding-top: 10px !important
 }
