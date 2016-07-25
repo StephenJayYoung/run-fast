@@ -66,8 +66,8 @@ p {
 
 @media(max-width: 768px){
 	.doctor-image{
-		height:65%;
-		width:65%;
+		height:55%;
+		width:55%;
 	}
 }
 
