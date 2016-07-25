@@ -13,8 +13,8 @@
 	color:#a9bf04 !important;
 }
 .accordion .panel.main-bg,.btn.main-bg,.contact-widget .social-list .diamond.outlined a:hover:after,.feature-img:hover figure:before,.flex-control-paging li a.flex-active,.heading-full [class*=head-],.icon-box.gry-border-2:hover,.icons-style-2 i,.img-icon,.main-border,.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span,.pricing-tbl.selected,.pricing-tbl.style-4.no-margin.selected,.pricing-tbl.style-4.selected .plan-head:before,.pricing-tbl.style-4:hover .plan-head:before,.pricing-tbl:hover,.testimonials-2 .testimonials-img,.tri-line,footer .tags li:hover,footer .tags.hover-effect a:hover,li.outlined.circle:hover,li.outlined.rectangle:hover{
-	border-color:#a9bf04!important
-}
+/*	border-color:#a9bf04!important
+*/}
 .accordion.style-1 .panel>.panel-heading h4 a:not(.collapsed),.accordion.style-4 .panel>.panel-heading h4 a:not(.collapsed),.bquote-3,.filter-by,.head-3 b:before,.head-4 b:before,.icons-style-2:hover .heading,.inner-menu ul ul,.p-style4 .name-holder,.page-title.title-5 h3,.pagination.bottom-border ul li,.pricing-tbl.style-2:hover h3,.sidebar_widgets li.widget,.tabs-style-ballon .tab-content .tab-pane,.testimonials-3 .testimonials-bg,.toolsBar,.top-bar li ul,.top-search .search-box{
 	border-bottom-color:#a9bf04
 }

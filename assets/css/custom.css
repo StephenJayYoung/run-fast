@@ -4,10 +4,12 @@ body{
 h1, h2, h3 {
     font-family: "futura",sans-serif;
     font-weight: 900;
+    color: #000;
 }
 
 h3, h4, h5{
 	    font-family: "futura medium",sans-serif;
+	    color: #000;
 }
 
 .responsive-nav {
@@ -165,7 +167,7 @@ textarea {
 }
 
 /** ACTIONS OVERRIDES */
-.calls-to-action{padding:30px 0;border:0!important;background-color: #796d22;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
+.calls-to-action{padding:30px 0;border:0!important;background-color: #8ba100;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
 .calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0; margin-top: 20px;}
 .calls-to-action h3 a{display:block;color:#ffffff;font-size:3em;}
 .calls-to-action h3 a{font-size:2em;}
