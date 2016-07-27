@@ -106,10 +106,10 @@ jQuery(document).ready(function($){
                                 overviewMapControl: false,
                                 draggable: false,
                                 scrollwheel: false,
-                center:new google.maps.LatLng(47.153118, -122.281991),mapTypeId: google.maps.MapTypeId.ROADMAP};
+                center:new google.maps.LatLng(45.469021, -122.652776),mapTypeId: google.maps.MapTypeId.ROADMAP};
             map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
             marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(47.153118, -122.281991)});
-            infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>3928 10th St SE</b><br/>Puyallup, WA 98374</a></div>" });
+            infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>7718 SE 13th Ave</b><br/>Portland, Oregon 97202</a></div>" });
             google.maps.event.addListener(marker, "click", function(){
                 infowindow.open(map,marker);
             });
