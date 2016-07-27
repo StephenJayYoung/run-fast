@@ -97,9 +97,10 @@ jQuery(document).ready(function($){
         // Google Map Scripts//
         function init_map(){
             var iconBase = 'assets/images/icons/';
-                      var myOptions = {zoom:16,
+                      var myOptions = {zoom:15,
                       panControl: true,
                                 zoomControl: false,
+                                center: true,
                                 mapTypeControl: false,
                                 scaleControl: false,
                                 streetViewControl: false,
