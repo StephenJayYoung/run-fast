@@ -91,38 +91,32 @@ jQuery(document).ready(function($){
         startWithSlide: 0,
     });
 
-// For double pop-up modal
-$('#openBtn').click(function(){
-    $('#myModal').modal({show:true})
-});
 
 
-    $('#google-map').gMap({
 
-        address: '101 Broad Street, Suite 203, Lake Geneva, WI 53147',
-        maptype: 'ROADMAP',
-        zoom: 16,
-        markers: [
-            {
-                address: "101 Broad Street, Suite 203, Lake Geneva, WI 53147",
-                icon: {
-                    image: "assets/images/icons/map-icon-red.png",
-                    iconsize: [32, 39],
-                    iconanchor: [32,39]
-                }
-            }
-        ],
-        doubleclickzoom: false,
-        controls: {
-            panControl: true,
-            zoomControl: true,
-            mapTypeControl: true,
-            scaleControl: false,
-            streetViewControl: false,
-            overviewMapControl: false,
-            draggable: false
+        // Google Map Scripts//
+        function init_map(){
+            var iconBase = 'assets/images/icons/';
+                      var myOptions = {zoom:16,
+                      panControl: true,
+                                zoomControl: false,
+                                mapTypeControl: false,
+                                scaleControl: false,
+                                streetViewControl: false,
+                                overviewMapControl: false,
+                                draggable: false,
+                                scrollwheel: false,
+                center:new google.maps.LatLng(47.153118, -122.281991),mapTypeId: google.maps.MapTypeId.ROADMAP};
+            map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+            marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(47.153118, -122.281991)});
+            infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>3928 10th St SE</b><br/>Puyallup, WA 98374</a></div>" });
+            google.maps.event.addListener(marker, "click", function(){
+                infowindow.open(map,marker);
+            });
+            infowindow.open(map,marker);
         }
+        google.maps.event.addDomListener(window, 'load', init_map);
 
-    });
+
 });
 

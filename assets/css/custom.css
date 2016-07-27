@@ -251,3 +251,61 @@ padding-bottom: 30px;
 #contact{
 		background-color: #ffffff;
 }
+
+/*Location Overrides*/
+
+#location{
+    background-color: #fff;
+}
+
+@media(max-width: 480px){
+       #map_canvas{
+        height: 300px; width: 100%;
+    }
+}
+
+.madsen-dentistry{
+    padding-top: 15px; color: #DA7330 !important; font-size: 25px
+}
+
+.madsen-address{
+    color: #DA7330
+}
+
+.click-directions{
+    color: #DA7330; text-decoration: underline; font-size: 15px
+}
+
+.new-patient-footer{
+    padding-top: 15px;
+}
+
+.new-patient-numbers{
+    color: #DA7330; font-size: 28px
+}
+
+.existing-patient-numbers{
+    color: #DA7330; font-size: 23px
+}
+
+.footer-request-button{
+    margin-top:5px;
+}
+
+.schedule-appointment-footer{}
+
+#map_canvas{
+    height: 450px; width: 100%;
+}
+
+head.header-2 .top-cart.new-angle > a:before {
+     border-top-right-radius: none !important; 
+     border-bottom-left-radius: none !important; 
+}
+
+.new-angle.lg, .contact-widget .details li i.new-angle.lg:before {
+    border-top-right-radius: none !important;
+    border-bottom-left-radius: none !important;
+}
+
+
