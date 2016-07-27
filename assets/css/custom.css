@@ -193,13 +193,13 @@ textarea {
 .calls-to-action .existing-patients p{font-size:24px;margin:0;}
 .calls-to-action .existing-patients p a{font-weight:bold;}
 
-@media (max-width: 762px){.calls-to-action h3 a{font-size:2em;}}
+@media (max-width: 768px){.calls-to-action h3 a{font-size:2em;}}
 
 @media(max-width: 480px){ .calls-to-action{padding:10px 0;}}
 
-@media(max-width: 762px){.existing-patients p a{margin-top:-10px;display:block;}}
+@media(max-width: 767px){.existing-patients p a{margin-top:-10px;display:block;}}
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .calls-to-action{padding-top: 0px; padding-bottom: 30px;}
     .calls-to-action .phone-numbers, .calls-to-action .schedule-online{
     border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
@@ -213,7 +213,8 @@ textarea {
     color: #fff !important;
     font-weight:bold;
     border: 1px solid #fff;
-/*    box-shadow: 3px 3px 3px #444;
+/*    margin-top: 10px;
+*//*    box-shadow: 3px 3px 3px #444;
 */}
 
 .calls-to-action .btn:hover{
