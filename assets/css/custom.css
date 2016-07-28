@@ -132,7 +132,11 @@ textarea {
 }
 
 .reviews-background{
-	background-image:url('../images/reviews-background-derek-updated.jpg')
+	background-image:url('../images/reviews-background-derek-updated.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 @media (max-width: 768px){
