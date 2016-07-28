@@ -100,16 +100,16 @@ jQuery(document).ready(function($){
                       var myOptions = {zoom:15,
                       panControl: true,
                                 zoomControl: false,
-                                center: true,
                                 mapTypeControl: false,
                                 scaleControl: false,
                                 streetViewControl: false,
                                 overviewMapControl: false,
                                 draggable: false,
                                 scrollwheel: false,
+                                noWrap: true,
                 center:new google.maps.LatLng(45.469021, -122.652776),mapTypeId: google.maps.MapTypeId.ROADMAP};
             map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-            marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(47.153118, -122.281991)});
+            marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(45.469021, -122.652776)});
             infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>7718 SE 13th Ave</b><br/>Portland, Oregon 97202</a></div>" });
             google.maps.event.addListener(marker, "click", function(){
                 infowindow.open(map,marker);
