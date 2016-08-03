@@ -146,7 +146,7 @@ background-size: cover;
 }
 
 .appointment-background{
-	background-image:url('../images/scheduling-background.jpg') !important;
+	background-image:url('../images/bottom-photo.jpg') !important;
 }
 
 @media (max-width: 768px){
