@@ -185,7 +185,7 @@ background-size: cover;
 }
 
 /** ACTIONS OVERRIDES */
-.calls-to-action{padding:30px 0;border:0!important;background-color: #8ba100;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
+.calls-to-action{padding:30px 0;border:0!important;background-color: #81BE41;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
 .calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0; margin-top: 20px;}
 .calls-to-action h3 a{display:block;color:#ffffff;font-size:3em;}
 .calls-to-action h3 a{font-size:2em;}
@@ -213,7 +213,7 @@ background-size: cover;
 }
 
 .calls-to-action .btn{
-    background-color: blue !important;
+    background-color: #00AEEE !important;
     color: #fff !important;
     font-weight:bold;
     border: 1px solid #fff;
@@ -270,15 +270,15 @@ padding-bottom: 30px;
 }
 
 .madsen-dentistry{
-    padding-top: 15px; color: blue  !important; font-size: 25px
+    padding-top: 15px; color: #00AEEE  !important; font-size: 25px
 }
 
 .madsen-address{
-    color: blue;
+    color: #00AEEE;
 }
 
 .click-directions{
-    color: blue; text-decoration: underline; font-size: 15px
+    color: #00AEEE; text-decoration: underline; font-size: 15px
 }
 
 .new-patient-footer{
@@ -286,7 +286,7 @@ padding-bottom: 30px;
 }
 
 .new-patient-numbers{
-    color: blue; font-size: 28px
+    color: #00AEEE; font-size: 28px
 }
 
 .existing-patient-numbers{
