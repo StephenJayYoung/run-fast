@@ -139,19 +139,22 @@ textarea {
 background-size: cover;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 	.reviews-background {
-		background-image:url('../images/reviews-mobile.jpg') !important;
+		background:url('../images/reviews-mobile.jpg') !important;
+background-repeat: no-repeat; background-size: cover
 	}
-}
+}*/
 
 .appointment-background{
-	background-image:url('../images/bottom-photo.jpg') !important;
+	background:url('../images/bottom-photo.jpg') !important;
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
 
 @media (max-width: 768px){
 	.appointment-background {
-		background-image:url('../images/appt-mobile.jpg') !important;
+		background:url('../images/appt-mobile.jpg') !important;
 	}
 }
 
