@@ -1992,9 +1992,9 @@ li.mega-menu .inner-mega {
 /* ==========================================================================
   4. PAGE TITLES.
 ============================================================================= */
-.page-title.title-1,.page-title.title-2,.page-title.title-3,.page-title.title-5 {
+/*.page-title.title-1,.page-title.title-2,.page-title.title-3,.page-title.title-5 {
 	background: url('../images/page-titles/title-light.jpg') no-repeat 50% 0;
-}
+}*/
 .page-title > .container{
 	position:relative;
 	display:table

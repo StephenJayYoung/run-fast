@@ -129,36 +129,41 @@ textarea {
   background-size: cover;
 }
 
-@media (max-width: 768px){
+@media (max-width: 550px){
 	.services-background {
-		background:url('../images/services-mobile.jpg') !important;
+		background: url('../images/services-mobile.jpg');
 	}
 }
 
 .reviews-background{
-	background:url('../images/reviews-background-derek-updated.jpg') no-repeat center center fixed; 
+	background: url('../images/reviews-background-derek-updated.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-/*@media (max-width: 768px){
+@media (max-width: 768px){
 	.reviews-background {
-		background:url('../images/reviews-mobile.jpg') !important;
-background-repeat: no-repeat; background-size: cover
+		background: url('../images/reviews-mobile.jpg') no-repeat center center fixed;
 	}
-}*/
+}
 
-.appointment-background{
-	background:url('../images/bottom-photo.jpg') !important;
-	background-repeat: no-repeat; 
-	background-size: cover;
+.appointment-background {
+	background: url('../images/bottom-photo.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media (max-width: 768px){
 	.appointment-background {
-		background:url('../images/appt-mobile.jpg') !important;
+	background: url('../images/appt-mobile.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	}
 }
 
@@ -247,6 +252,10 @@ background-repeat: no-repeat; background-size: cover
 		height: 40% !important;
 		width: 40% !important;
 	}
+}
+
+#patients{
+	padding-top:20px;
 }
 
 /*#about{
