@@ -143,8 +143,8 @@ textarea {
     .reviews-background {
         background: url('../images/reviews-mobile.jpg');
         height:100% !important;
-				width:100% !important;
-				background-attachment: scroll !important;
+		width:100% !important;
+		background-attachment: scroll !important;
 
     }
 }
