@@ -122,21 +122,25 @@ textarea {
 
 
 .services-background {
-	background-image:url('../images/runfast-room.jpg');
+	background :url('../images/runfast-room.jpg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media (max-width: 768px){
 	.services-background {
-		background-image:url('../images/services-mobile.jpg') !important;
+		background:url('../images/services-mobile.jpg') !important;
 	}
 }
 
 .reviews-background{
-	background-image:url('../images/reviews-background-derek-updated.jpg');
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+	background:url('../images/reviews-background-derek-updated.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /*@media (max-width: 768px){
