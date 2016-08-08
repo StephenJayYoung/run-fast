@@ -541,7 +541,12 @@ textarea {
 .schedule-appointment-footer {
     margin-top: 20px; 
     color: #000
+}
 
+.conact_center_form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .93
 }
 
 #map_canvas {
