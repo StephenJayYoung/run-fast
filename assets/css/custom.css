@@ -75,6 +75,10 @@ p {
     }
 }
 
+.doctor-image{
+    border: 1px solid #000
+}
+
 .deep-v-image{
     height: 50px !important; 
     width: 40px !important;
@@ -322,13 +326,6 @@ textarea {
     border: 1px solid #fff;
 }
 
-
-.doctor-heading{
-    margin-bottom: 25px;
-    background-color: #fff
-    !important
-}
-
 .doctor-image{
     border: 1px solid #000
 }
@@ -339,6 +336,14 @@ textarea {
 
 .about-nav-tabs{
     font-size: 14px
+}
+
+.about-run-images{
+    margin-top: 7px
+}
+
+.about-run-border{
+    border: 1px solid #000
 }
 
 .phone-numbers-desktop {
