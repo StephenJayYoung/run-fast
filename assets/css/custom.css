@@ -75,6 +75,11 @@ p {
     }
 }
 
+.deep-v-image{
+    height: 50px !important; 
+    width: 40px !important;
+}
+
 textarea {
     width: 100%;
     height: 100px;
@@ -206,6 +211,10 @@ textarea {
     text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
 
+.cta-subtext{
+    font-size: 16px
+}
+
 .calls-to-action h3 {
     color: #f2f2f2 !important;
     font-size: 15px;
@@ -311,16 +320,25 @@ textarea {
     color: #fff !important;
     font-weight: 700;
     border: 1px solid #fff;
-/*    margin-top: 10px;
-*/
-/*    box-shadow: 3px 3px 3px #444;
-*/
 }
 
 
+.doctor-heading{
+    margin-bottom: 25px;
+    background-color: #fff
+    !important
+}
+
+.doctor-image{
+    border: 1px solid #000
+}
 
 .cta-doctor {
     font-size: 25px !important;
+}
+
+.about-nav-tabs{
+    font-size: 14px
 }
 
 .phone-numbers-desktop {
