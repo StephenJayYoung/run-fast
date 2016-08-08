@@ -177,6 +177,10 @@ textarea {
     }
 }
 
+.what-sets-apart-seperator{
+    width: 90%;
+}
+
 .reviews-text {
     color: #fff;
     background-color: #000;
@@ -184,6 +188,37 @@ textarea {
     font-size: 20px;
     padding: 15px;
     margin-bottom: 75px !important;
+}
+
+#services{
+    margin-top: 35px;
+}
+
+.services-heading-text{
+    color: #000;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 45px
+}
+
+.services-butn-opacity{
+    opacity: 0.93
+}
+
+.services-heading-subtext{
+    font-size: 13px
+}
+
+.specializing-in-subtext{
+    margin-bottom: 10px
+}
+
+.patients-heading{
+    margin-bottom: 30px !important;
+}
+
+.general-forms-heading{
+    margin-bottom: 30px !important;
 }
 
 .big-heart:before {
@@ -196,6 +231,51 @@ textarea {
 
 .services-icons {
     font-size: 18px;
+}
+
+.form-head{
+    background-color: #81BE41 !important;
+    color: #fff !important;
+    margin-bottom: 20px !important;
+}
+
+.injury-specific-forms-head{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.injury-specific-butn-margin{
+    margin-bottom: 10px !important;
+}
+
+.payments-margin{
+    margin-top: 30px;
+    margin-bottom: 25px
+}
+
+.testi-header{
+    color: #fff;
+    -webkit-text-stroke-width: .1px;
+   -webkit-text-stroke-color: #000;
+}
+
+#affiliates{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.affiliates-heading{
+    padding-top: 20px;
+    margin-bottom: 20px
+}
+
+.contact-heading{
+    padding-top: 20px !important; 
+    margin-bottom: 20px !important
+}
+
+.map-marker-color{
+    color: #81BE41
 }
 
 /*for double pop-up modal*/
@@ -354,11 +434,19 @@ textarea {
     padding-top: 10px !important;
 }
 
+.what-sets-jen-apart{
+    margin-top: 20px; color: #000
+}
+
 @media(max-width: 768px) {
     .affiliates-logo {
         height: 40% !important;
         width: 40% !important;
     }
+}
+
+.what-sets-apart-icons{
+    color: #00AEEE;
 }
 
 #patients {
@@ -386,14 +474,38 @@ textarea {
     }
 }
 
-.madsen-dentistry {
+.orc-head {
+    margin-bottom: 10px;
     padding-top: 15px;
     color: #00AEEE !important;
     font-size: 25px;
 }
 
-.madsen-address {
-    color: #00AEEE;
+.orc-pt {
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.orc-address{
+    margin-bottom: 10px; color: #000
+}
+
+.orc-location-text{
+    color: #000
+}
+
+.contact-icon-color{
+    color: #81BE41 !important;
+}
+
+.contact-email{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.email-color{
+    color: #00AEEE
 }
 
 .click-directions {
@@ -412,16 +524,24 @@ textarea {
     font-size: 28px;
 }
 
-.existing-patient-numbers {
+.contact-number{
     color: #000;
     font-size: 19px;
 }
 
+.fax-font{
+    font-size: 16px
+}
+
 .footer-request-button {
     margin-top: 5px;
+    background-color: #00AEEE
 }
 
 .schedule-appointment-footer {
+    margin-top: 20px; 
+    color: #000
+
 }
 
 #map_canvas {
