@@ -91,9 +91,6 @@ jQuery(document).ready(function($){
         startWithSlide: 0,
     });
 
-
-
-
         // Google Map Scripts//
         function init_map(){
             var iconBase = 'assets/images/icons/';
@@ -117,6 +114,10 @@ jQuery(document).ready(function($){
             infowindow.open(map,marker);
         }
         google.maps.event.addDomListener(window, 'load', init_map);
+
+
+
+
 
 
 });

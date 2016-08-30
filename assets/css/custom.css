@@ -130,7 +130,7 @@ textarea {
  		background-attachment: fixed !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     .services-background {
         background: url("../images/services-mobile.jpg");
         height:100% !important;
@@ -148,7 +148,7 @@ textarea {
 		width:100% !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     .reviews-background {
         background: url('../images/reviews-mobile.jpg');
         height:100% !important;
@@ -167,7 +167,7 @@ textarea {
 		width:100% !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
     .appointment-background {
         background: url('../images/appt-mobile.jpg');
         height:100% !important;
