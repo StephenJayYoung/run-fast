@@ -144,14 +144,14 @@ textarea {
  		background-position: center center !important;
  		background-size: cover !important;
  		background-attachment: fixed !important;
- 		height:100% !important;
-		width:100% !important;
+ 		height: 650px !important;
+		width: 100% !important;
 }
 
 @media (max-width: 920px) {
     .reviews-background {
         background: url('../images/reviews-mobile.jpg');
-        height:100% !important;
+        height: 650px !important;
 		width:100% !important;
 		background-attachment: scroll !important;
 
