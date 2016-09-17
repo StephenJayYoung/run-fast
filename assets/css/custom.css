@@ -120,7 +120,7 @@ textarea {
 }
 
 .services-btn-pad {
-    margin: 10px !important;
+    margin-left: 10px !important;
 }
 
 .services-background {
@@ -563,3 +563,4 @@ head.header-2 .top-cart.new-angle > a:before {
     border-top-right-radius: none !important;
     border-bottom-left-radius: none !important;
 }
+
