@@ -797,7 +797,7 @@
             </section>
 
 
-            <section id="contact">
+            <section id="contact" style="margin-bottom: 20px">
 
                 <div class="gmap">
                     <div id="map_canvas"></div>
@@ -825,9 +825,9 @@
                             <div class="white-bg text-center lg">
                                 <i class="fa fa-3x fa-phone-square main-color contact-icon-color"></i>
                                 <h4 class="new-patient-footer">Phone:<br><a class="new-patient-numbers" href="tel:+15034827234">(503) 482-7234</a></h4>
-                                <i class="fa fa-3x fa-envelope-square contact-icon-color" aria-hidden="true"></i>
-                                <h5 class="text-center contact-email"> Email: <br><a  class="email-color " href="mailto:jdavis@oregonrunningclinic.com">jdavis@oregonrunningclinic.com</a></h5>
+                                <!-- <i class="fa fa-3x fa-envelope-square contact-icon-color" aria-hidden="true"></i> -->
                                 <h5 class="fax-font">Fax:<br><a class="contact-number"> (503) 482-7232</a></h5>
+                                <a class="btn main-bg btn-xl shape footer-request-button" href="#" data-toggle="modal" data-target="#schedule-form" >Contact Jen</a>
                             </div>
                         </div>
 
@@ -891,6 +891,57 @@
 
     <!-- Back to top Link -->
     <a id="to-top"><span class="fa fa-chevron-up shape main-bg"></span></a>
+
+        <!-- Modal Scheduling Form -->
+    <div class="modal" id="schedule-form" tabindex="-1" role="dialog" aria-labelledby="schedule-form-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <form method="post" action="schedule.php">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="schedule-form-modal-label">Request an Appointment</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="clearfix">
+                            <p class="teaser">YES! Please contact me to schedule an appointment or answer any questions I might still have:</p>
+                        </div>
+                        <table>
+                            <tr id="person-field">
+                                <th class="label">
+                                    <label for="person">My name:</label>
+                                </th>
+                                <td class="field">
+                                    <input type="text" required name="person" class="input_full" />
+                                </td>
+                            </tr>
+                            <tr id="respond-field">
+                                <th class="label">
+                                    <label for="respond">Email:</label>
+                                </th>
+                                <td class="field">
+                                    <input type="email" required name="respond" class="input_full" />
+                                </td>
+                            </tr>
+                            <tr id="phone-field">
+                                <th class="label">
+                                    <label for="phone">Phone #:</label>
+                                </th>
+                                <td class="field">
+                                    <input type="text" required name="phone" class="input_full" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button type="submit" class="center-block button main-bg btn-sm" style="font-size: 26px; border-radius: none !important; width: 100%;box-shadow: 3px 3px 3px #444">Request Appointment</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 
 
     <!-- Load JS plugins file -->

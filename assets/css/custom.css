@@ -1,566 +1,118 @@
-
-body {
-    font-family: "futura medium",sans-serif;
-}
-
-h1,h2,h3 {
-    font-family: "futura",sans-serif;
-    font-weight: 900;
-    color: #000;
-}
-
-h3,h4,h5 {
-    font-family: "futura medium",sans-serif;
-    color: #000;
-}
-
-.responsive-nav {
-    margin-top: 25px;
-}
-
-p {
-    font-size: 16px;
-}
-
-@media(max-width: 768px) {
-    p {
-        font-size: 13px;
-    }
-}
-
-.top-head.transparent {
-    border-bottom: none !important;
-}
-
-.top-head.transparent-3 {
-    border-bottom: none !important;
-}
-
-@media (max-width: 1200px) {
-    .logo {
-        text-align: center !important;
-    }
-}
-
-.logo-responsive {
-    height: 75%;
-    width: 75%;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 0 !important;
-}
-
-@media (min-width: 991px) and (max-width: 1200px) {
-    .logo-responsive {
-        height: 65%;
-        width: 65%;
-        margin-top: 4px;
-        margin-bottom: 4px;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo-responsive {
-        height: 40%;
-        width: 40%;
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
-}
-
-@media(max-width: 768px) {
-    .doctor-image {
-        height: 55%;
-        width: 55%;
-    }
-}
-
-.doctor-image{
-    border: 1px solid #000
-}
-
-.deep-v-image{
-    height: 50px !important; 
-    width: 40px !important;
-}
-
-textarea {
-    width: 100%;
-    height: 100px;
-    padding: 15px;
-}
-
-.services-text {
-    color: #fff;
-    background-color: #000;
-    opacity: .8;
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.services-text-header {
-    background-color: #000;
-    opacity: .8;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.services-subheader {
-    color: #fff;
-    background-color: #000;
-    opacity: .8;
-    font-size: 16px;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-
-.services-padding {
-    margin-bottom: 10px;
-}
-
-.services-btn-pad {
-    margin-left: 10px !important;
-}
-
-.services-background {
-    background: url('../images/runfast-room.jpg');
- 		background-position: center center !important;
- 		background-size: cover !important;
- 		background-attachment: fixed !important;
-}
-
-@media (max-width: 920px) {
-    .services-background {
-        background: url("../images/services-mobile.jpg");
-        height:100% !important;
-				width:100% !important;
-				background-attachment: scroll !important;
-    }
-}
-
-.reviews-background {
-    background: url('../images/reviews-background-derek-updated.jpg');
- 		background-position: center center !important;
- 		background-size: cover !important;
- 		background-attachment: fixed !important;
- 		height: 650px !important;
-		width: 100% !important;
-}
-
-@media (max-width: 920px) {
-    .reviews-background {
-        background: url('../images/reviews-mobile.jpg');
-        height: 650px !important;
-		width:100% !important;
-		background-attachment: scroll !important;
-
-    }
-}
-
-.appointment-background {
-    background: url("../images/bottom-photo.jpg");
- 		background-position: center center !important;
- 		background-size: cover !important;
- 		background-attachment: fixed !important;
- 		height:100% !important;
-		width:100% !important;
-}
-
-@media (max-width: 920px) {
-    .appointment-background {
-        background: url('../images/appt-mobile.jpg');
-        height:100% !important;
-				width:100% !important;
-				background-attachment: scroll !important;
-
-    }
-}
-
-.what-sets-apart-seperator{
-    width: 90%;
-}
-
-.reviews-text {
-    color: #fff;
-    background-color: #000;
-    opacity: .7;
-    font-size: 20px;
-    padding: 15px;
-    margin-bottom: 75px !important;
-}
-
-#services{
-    margin-top: 35px;
-}
-
-.services-heading-text{
-    color: #000;
-    -webkit-text-stroke-width: .1px;
-    -webkit-text-stroke-color: #fff;
-    font-size: 45px
-}
-
-.services-butn-opacity{
-    opacity: 0.93
-}
-
-.services-heading-subtext{
-    font-size: 13px
-}
-
-.specializing-in-subtext{
-    margin-bottom: 10px
-}
-
-.patients-heading{
-    margin-bottom: 30px !important;
-}
-
-.general-forms-heading{
-    margin-bottom: 30px !important;
-}
-
-.big-heart:before {
-    color: #fff !important;
-}
-
-.forms-margin {
-    margin-top: 25px;
-}
-
-.services-icons {
-    font-size: 18px;
-}
-
-.form-head{
-    background-color: #81BE41 !important;
-    color: #fff !important;
-    margin-bottom: 20px !important;
-}
-
-.injury-specific-forms-head{
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-}
-
-.injury-specific-butn-margin{
-    margin-bottom: 10px !important;
-}
-
-.payments-margin{
-    margin-top: 30px;
-    margin-bottom: 25px
-}
-
-.testi-header{
-    color: #fff;
-    -webkit-text-stroke-width: .1px;
-   -webkit-text-stroke-color: #000;
-}
-
-#affiliates{
-    margin-top: 10px;
-    margin-bottom: 10px
-}
-
-.affiliates-heading{
-    padding-top: 20px;
-    margin-bottom: 20px
-}
-
-.contact-heading{
-    padding-top: 20px !important; 
-    margin-bottom: 20px !important
-}
-
-.map-marker-color{
-    color: #81BE41
-}
-
-/*for double pop-up modal*/
-.modal:nth-of-type(even) {
-    z-index: 1042 !important;
-}
-
-.modal-backdrop.in:nth-of-type(even) {
-    z-index: 1041 !important;
-}
-
-/** ACTIONS OVERRIDES */
-.calls-to-action {
-    padding: 30px 0;
-    border: 0 !important;
-    background-color: #81BE41;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
-}
-
-.cta-subtext{
-    font-size: 16px
-}
-
-.calls-to-action h3 {
-    color: #f2f2f2 !important;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 20px;
-}
-
-.calls-to-action h3 a {
-    display: block;
-    color: #fff;
-    font-size: 3em;
-}
-
-.calls-to-action h3 a {
-    font-size: 2em;
-}
-
-.calls-to-action p,.calls-to-action span {
-    color: #fff;
-    margin-top: 8px;
-}
-
-.calls-to-action span a {
-    color: inherit;
-}
-
-.calls-to-action a.button {
-    height: auto !important;
-    padding: 5px 20px !important;
-}
-
-.calls-to-action .phone-numbers {
-    border-right: 1px solid #fff;
-    padding-right: 20px;
-    padding-bottom: 18px;
-    text-align: right;
-}
-
-.calls-to-action .schedule-online {
-    padding-left: 20px;
-    text-align: left;
-}
-
-.calls-to-action .existing-patients p {
-    font-size: 24px;
-    margin: 0;
-}
-
-.calls-to-action .existing-patients p a {
-    font-weight: 700;
-}
-
-@media (max-width: 768px) {
-    .calls-to-action h3 a {
-        font-size: 2em;
-    }
-}
-
-@media(max-width: 480px) {
-    .calls-to-action {
-        padding: 10px 0;
-    }
-}
-
-@media(max-width: 767px) {
-    .existing-patients p a {
-        margin-top: -10px;
-        display: block;
-    }
-}
-
-@media (max-width: 767px) {
-    .calls-to-action {
-        padding-top: 0;
-        padding-bottom: 30px;
-    }
-
-    .calls-to-action .phone-numbers,.calls-to-action .schedule-online {
-        border-left: none;
-        border-right: none;
-        padding-left: 0;
-        padding-right: 0;
-        text-align: center;
-    }
-
-    .calls-to-action .existing-patients p {
-        font-size: 20px;
-    }
-
-    .calls-to-action .existing-patients p a {
-        margin-top: 5px;
-    }
-
-    .calls-to-action h3 {
-        font-size: 17px;
-        margin-top: 30px;
-    }
-}
-
-.calls-to-action .btn {
-    background-color: #00AEEE !important;
-    color: #fff !important;
-    font-weight: 700;
-    border: 1px solid #fff;
-}
-
-.doctor-image{
-    border: 1px solid #000
-}
-
-.cta-doctor {
-    font-size: 25px !important;
-}
-
-.about-nav-tabs{
-    font-size: 14px
-}
-
-.about-run-images{
-    margin-top: 7px
-}
-
-.about-run-border{
-    border: 1px solid #000
-}
-
-.phone-numbers-desktop {
-    margin-top: -20px;
-}
-
-.existing-patients-desktop {
-    padding-top: 10px !important;
-}
-
-.what-sets-jen-apart{
-    margin-top: 20px; color: #000
-}
-
-@media(max-width: 768px) {
-    .affiliates-logo {
-        height: 40% !important;
-        width: 40% !important;
-    }
-}
-
-.what-sets-apart-icons{
-    color: #00AEEE;
-}
-
-#patients {
-    padding-top: 20px;
-}
-
-
-#forms {
-    background-color: #fff;
-}
-
-#contact {
-    background-color: #fff;
-}
-
-/*Location Overrides*/
-#location {
-    background-color: #fff;
-}
-
-@media(max-width: 480px) {
-    #map_canvas {
-        height: 200px;
-        width: 100%;
-    }
-}
-
-.orc-head {
-    margin-bottom: 10px;
-    padding-top: 15px;
-    color: #00AEEE !important;
-    font-size: 25px;
-}
-
-.orc-pt {
-    margin-bottom: 10px;
-    font-size: 18px
-}
-
-.orc-address{
-    margin-bottom: 10px; color: #000
-}
-
-.orc-location-text{
-    color: #000
-}
-
-.contact-icon-color{
-    color: #81BE41 !important;
-}
-
-.contact-email{
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px
-}
-
-.email-color{
-    color: #00AEEE
-}
-
-.click-directions {
-    color: #00AEEE;
-    text-decoration: underline;
-    font-size: 15px;
-}
-
-.new-patient-footer {
-    padding-top: 15px;
-    margin-bottom: 10px;
-}
-
-.new-patient-numbers {
-    color: #00AEEE;
-    font-size: 28px;
-}
-
-.contact-number{
-    color: #000;
-    font-size: 19px;
-}
-
-.fax-font{
-    font-size: 16px
-}
-
-.footer-request-button {
-    margin-top: 5px;
-    background-color: #00AEEE
-}
-
-.schedule-appointment-footer {
-    margin-top: 20px; 
-    color: #000
-}
-
-.conact_center_form{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    opacity: .93
-}
-
-#map_canvas {
-    height: 450px;
-    width: 100%;
-}
-
-head.header-2 .top-cart.new-angle > a:before {
-    border-top-right-radius: none !important;
-    border-bottom-left-radius: none !important;
-}
-
-.new-angle.lg,.contact-widget .details li i.new-angle.lg:before {
-    border-top-right-radius: none !important;
-    border-bottom-left-radius: none !important;
-}
-
+body{font-family:"futura medium",sans-serif;}
+h1,h2,h3{font-family:"futura",sans-serif;font-weight:900;color:#000;}
+h3,h4,h5{font-family:"futura medium",sans-serif;color:#000;}
+.responsive-nav{margin-top:25px;}
+p{font-size:16px;}
+@media(max-width:768px){p{font-size:13px;}
+}
+.top-head.transparent{border-bottom:none !important;}
+.top-head.transparent-3{border-bottom:none !important;}
+@media (max-width:1200px){.logo{text-align:center !important;}
+}
+.logo-responsive{height:75%;width:75%;margin-top:8px;margin-bottom:8px;margin-left:0 !important;}
+@media (min-width:991px) and (max-width:1200px){.logo-responsive{height:65%;width:65%;margin-top:4px;margin-bottom:4px;}
+}
+@media (max-width:480px){.logo-responsive{height:40%;width:40%;margin-top:2px;margin-bottom:2px;}
+}
+@media(max-width:768px){.doctor-image{height:55%;width:55%;}
+}
+.doctor-image{border:1px solid #000}
+.deep-v-image{height:50px !important;width:40px !important;}
+textarea{width:100%;height:100px;padding:15px;}
+.services-text{color:#fff;background-color:#000;opacity:.8;font-size:20px;padding:10px;margin-bottom:30px;}
+.services-text-header{background-color:#000;opacity:.8;padding:10px;margin-bottom:30px;}
+.services-subheader{color:#fff;background-color:#000;opacity:.8;font-size:16px;padding:10px;margin-bottom:30px;}
+.services-padding{margin-bottom:10px;}
+.services-btn-pad{margin-left:10px !important;}
+.services-background{background:url('../images/runfast-room.jpg');background-position:center center !important;background-size:cover !important;background-attachment:fixed !important;}
+@media (max-width:920px){.services-background{background:url("../images/services-mobile.jpg");height:100% !important;width:100% !important;background-attachment:scroll !important;}
+}
+.reviews-background{background:url('../images/reviews-background-derek-updated.jpg');background-position:center center !important;background-size:cover !important;background-attachment:fixed !important;height:650px !important;width:100% !important;}
+@media (max-width:920px){.reviews-background{background:url('../images/reviews-mobile.jpg');height:650px !important;width:100% !important;background-attachment:scroll !important;}
+}
+.appointment-background{background:url("../images/bottom-photo.jpg");background-position:center center !important;background-size:cover !important;background-attachment:fixed !important;height:100% !important;width:100% !important;}
+@media (max-width:920px){.appointment-background{background:url('../images/appt-mobile.jpg');height:100% !important;width:100% !important;background-attachment:scroll !important;}
+}
+.what-sets-apart-seperator{width:90%;}
+.reviews-text{color:#fff;background-color:#000;opacity:.7;font-size:20px;padding:15px;margin-bottom:75px !important;}
+#services{margin-top:35px;}
+.services-heading-text{color:#000;-webkit-text-stroke-width:.1px;-webkit-text-stroke-color:#fff;font-size:45px}
+.services-butn-opacity{opacity:0.93}
+.services-heading-subtext{font-size:13px}
+.specializing-in-subtext{margin-bottom:10px}
+.patients-heading{margin-bottom:30px !important;}
+.general-forms-heading{margin-bottom:30px !important;}
+.big-heart:before{color:#fff !important;}
+.forms-margin{margin-top:25px;}
+.services-icons{font-size:18px;}
+.form-head{background-color:#81BE41 !important;color:#fff !important;margin-bottom:20px !important;}
+.injury-specific-forms-head{margin-top:30px !important;margin-bottom:30px !important;}
+.injury-specific-butn-margin{margin-bottom:10px !important;}
+.payments-margin{margin-top:30px;margin-bottom:25px}
+.testi-header{color:#fff;-webkit-text-stroke-width:.1px;-webkit-text-stroke-color:#000;}
+#affiliates{margin-top:10px;margin-bottom:10px}
+.affiliates-heading{padding-top:20px;margin-bottom:20px}
+.contact-heading{padding-top:20px !important;margin-bottom:20px !important}
+.map-marker-color{color:#81BE41}
+.modal:nth-of-type(even){z-index:1042 !important;}
+.modal-backdrop.in:nth-of-type(even){z-index:1041 !important;}
+.calls-to-action{padding:30px 0;border:0 !important;background-color:#81BE41;text-shadow:1px 1px 1px rgba(0,0,0,.2);}
+.cta-subtext{font-size:16px}
+.calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0;margin-top:20px;}
+.calls-to-action h3 a{display:block;color:#fff;font-size:3em;}
+.calls-to-action h3 a{font-size:2em;}
+.calls-to-action p,.calls-to-action span{color:#fff;margin-top:8px;}
+.calls-to-action span a{color:inherit;}
+.calls-to-action a.button{height:auto !important;padding:5px 20px !important;}
+.calls-to-action .phone-numbers{border-right:1px solid #fff;padding-right:20px;padding-bottom:18px;text-align:right;}
+.calls-to-action .schedule-online{padding-left:20px;text-align:left;}
+.calls-to-action .existing-patients p{font-size:24px;margin:0;}
+.calls-to-action .existing-patients p a{font-weight:700;}
+@media (max-width:768px){.calls-to-action h3 a{font-size:2em;}
+}
+@media(max-width:480px){.calls-to-action{padding:10px 0;}
+}
+@media(max-width:767px){.existing-patients p a{margin-top:-10px;display:block;}
+}
+@media (max-width:767px){.calls-to-action{padding-top:0;padding-bottom:30px;}
+.calls-to-action .phone-numbers,.calls-to-action .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
+.calls-to-action .existing-patients p{font-size:20px;}
+.calls-to-action .existing-patients p a{margin-top:5px;}
+.calls-to-action h3{font-size:17px;margin-top:30px;}
+}
+.calls-to-action .btn{background-color:#00AEEE !important;color:#fff !important;font-weight:700;border:1px solid #fff;}
+.doctor-image{border:1px solid #000}
+.cta-doctor{font-size:25px !important;}
+.about-nav-tabs{font-size:14px}
+.about-run-images{margin-top:7px}
+.about-run-border{border:1px solid #000}
+.phone-numbers-desktop{margin-top:-20px;}
+.existing-patients-desktop{padding-top:10px !important;}
+.what-sets-jen-apart{margin-top:20px;color:#000}
+@media(max-width:768px){.affiliates-logo{height:40% !important;width:40% !important;}
+}
+.what-sets-apart-icons{color:#00AEEE;}
+#patients{padding-top:20px;}
+#forms{background-color:#fff;}
+#contact{background-color:#fff;}
+#location{background-color:#fff;}
+@media(max-width:480px){#map_canvas{height:200px;width:100%;}
+}
+.orc-head{margin-bottom:10px;padding-top:15px;color:#00AEEE !important;font-size:25px;}
+.orc-pt{margin-bottom:10px;font-size:18px}
+.orc-address{margin-bottom:10px;color:#000}
+.orc-location-text{color:#000}
+.contact-icon-color{color:#81BE41 !important;}
+.contact-email{font-size:16px;margin-top:10px;margin-bottom:10px}
+.email-color{color:#00AEEE}
+.click-directions{color:#00AEEE;text-decoration:underline;font-size:15px;}
+.new-patient-footer{padding-top:15px;margin-bottom:10px;}
+.new-patient-numbers{color:#00AEEE;font-size:28px;}
+.contact-number{color:#000;font-size:19px;}
+.fax-font{font-size:16px}
+.footer-request-button{margin-top:5px;background-color:#00AEEE}
+.schedule-appointment-footer{margin-top:20px;color:#000}
+.conact_center_form{margin-top:20px;margin-bottom:20px;opacity:.93}
+#map_canvas{height:450px;width:100%;}
+head.header-2 .top-cart.new-angle > a:before{border-top-right-radius:none !important;border-bottom-left-radius:none !important;}
+.new-angle.lg,.contact-widget .details li i.new-angle.lg:before{border-top-right-radius:none !important;border-bottom-left-radius:none !important;}
