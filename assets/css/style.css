@@ -541,11 +541,10 @@ input.small-txt{width:auto;margin-right:3px;display:inline-block}
 input[type=file]{height:auto;padding:12px 15px}
 .captcha-div .sm-txtbox{width:56% !important;height:76px !important;font-size:20px;font-weight:200;padding:0 15px;vertical-align:middle;}
 .captcha-div-lft .sm-txtbox{width:50%;height:75px !important;font-size:20px;font-weight:200;padding:0 15px;vertical-align:middle}
-textarea{width:100%;height:220px;padding:15px}
-.center_contact{width:70%;margin:auto}
+/*textarea{width:100%;height:220px;padding:15px}
+*/.center_contact{width:70%;margin:auto}
 .center_contact .button-group{text-align:center}
 .left-lbl{display:inline-block}
-#message{display:none}
 #captchaimg{margin-right:5px}
 .sub-heading.block{width:100% !important}
 .captcha-div{display:table;margin:10px auto;width:50%;text-align:center}
