@@ -196,3 +196,8 @@ textarea {
     height: 150px;
 }
 
+.help-block {
+    color: red !important;
+    background-color: #ededed !important;
+}
+

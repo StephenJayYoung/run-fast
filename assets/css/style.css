@@ -567,7 +567,7 @@ input[type=file]{height:auto;padding:12px 15px}
 .custom-checkbox .on,.custom-checkbox .off{margin:0 !important;position:absolute;z-index:2;cursor:pointer;outline:none;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";width:32px !important;height:31px !important;background-color:transparent !important}
 .custom-checkbox .on{right:0}
 .custom-checkbox .checkbox{margin:0 !important;position:absolute;z-index:2;cursor:pointer;outline:none;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";width:50px !important;height:30px !important;background-color:transparent !important}
-.error{border:1px #FFC5C5 solid !important}
+.error{border:none !important}
 .head-icon{margin-right:15px}
 .label-icon{margin-right:8px}
 .section .full-heading{margin-top:-100px;margin-bottom:75px;}
