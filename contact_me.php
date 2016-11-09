@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $messaged = $_POST['messaged'];
    
 // Create the email and send the message
-$to = 'stephenjayyoung@oregonrunninclinic.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'stephenjayyoung@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "ORC Website Contact Form:  $name";
 $email_body = "Hey Jen! You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$messaged";
 $headers = "From: noreply@oregonrunningclinic.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
